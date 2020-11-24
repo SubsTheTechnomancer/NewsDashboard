@@ -7,6 +7,9 @@
                 </div>
                 <h2><a class="article-title" href={{post.2}}>{{ post.0 }}</a></h2>
                 <p class="wht">{{post.1}}</p>
+                {% if post.1 > 0 %}
+                <p class="wht"> thassal da funs</p>
+                {% endif}
         </div>
         </article>
         {% endfor %}
